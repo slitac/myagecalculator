@@ -27,7 +27,11 @@ class MyDocument extends Document {
      crossorigin="anonymous"></script>
         </Head>
         <body>
-          <Main />
+          {/* Add your text content here */}
+          <meta
+            name="description"
+            content="About YT Thumbnail Downloader - this is my first site web"
+          />          
           <NextScript />
         </body>
       </Html>
