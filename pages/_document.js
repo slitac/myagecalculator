@@ -30,6 +30,7 @@ class MyDocument extends Document {
           ></script>
         </Head>
         <body>
+        <NextScript />
           {/* Your provided text content here */}
           <div>
             <h1>About YT Thumbnail Downloader</h1>
@@ -72,7 +73,7 @@ The YouTube video ID is a unique ID used to identify the video uploaded to YouTu
             {/* Add the rest of your text here */}
           </div>
 
-          <NextScript />
+          
         </body>
       </Html>
     );
