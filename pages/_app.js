@@ -21,27 +21,5 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-// The text you want to add
-const AdditionalText = () => {
-  return (
-    <div>
-      <h1>About YT Thumbnail Downloader</h1>
-      <p>
-        YT (You Thumbnail) YouTube thumbnail downloader allows you to download YouTube thumbnails easily and fastly. It's an online tool, not need to install any app, entirely free for anyone to use.
-        {/* Add the rest of your text here */}
-      </p>
-    </div>
-  );
-};
-
-const Home = () => {
-  return (
-    <div>
-      <MyApp />
-      <AdditionalText /> {/* Add this line to include the text */}
-    </div>
-  );
-};
-
 
 export default MyApp;
