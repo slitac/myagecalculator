@@ -41,11 +41,12 @@ input[type="text"] + button {
   display: inline-block;
   padding: 20px 30px;
   margin-top: 20px;
-  background-color: #336294;
+  background-color: #99a5e5;
   border: none;
   border-radius: 5px;
-  color: #ffffff;
+  color: #070707;
   cursor: pointer;
+  font-size: 20px;
   transition: background-color 0.3s;
 }
 
@@ -66,34 +67,62 @@ p {
   color: #444;
 }
 
-.ageCalculatorBox {
-  margin: 50px auto;
-  border: 10px solid #007BFF;  /* Adjust this color to your preference */
-  box-shadow: 0px 0px 15px rgba(236, 5, 5, 0.1);
-  padding: 20px;
-  width: 90%;
-  max-width: 500px;
-  border-radius: 10px;
-  background-color: #137ce6; /* A light gray color; you can adjust */
-}
+
+
 .dateInputContainer {
   display: flex;
-  gap: 10px;  /* Spacing between inputs */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
 }
 
-.dateInput {
-  padding: 10px 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  box-sizing: border-box;
-  text-align: center;
+.ageCalculatorBox {
+  border: 2px solid #accdf7;
+  padding: 20px;
+  border-radius: 2px;
+  margin: 20px 0;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #99a5e5;
+  box-shadow: 0 0 5px rgba(211, 0, 7, 7.1);
 }
+
+
+
+.dateInputs {
+  display: flex;
+  gap: 10px;
+}
+
+.dateInputs select,
+.dateInputs input {
+  padding: 5px 10px;
+  border: 1Opx solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.dateInputs input {
+  width: 80px; /* Adjust as needed */
+}
+
 
 .dayInput, .monthInput {
   width: 60px;  /* Width for day and month inputs */
 }
 
 .yearInput {
-  width: 80px;  /* Width for year input */
+  width: 60px;  /* Width for year input */
+}
+
+
+.home-container {
+  max-width: 600px;  /* Adjust this value to your preference */
+  margin: 0 auto;   /* This will center the content */
+  padding: 20px;
 }

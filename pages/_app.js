@@ -5,14 +5,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <DefaultSeo
-        title="Youtube Thumbnail Downloader"
-        description="Download high-quality thumbnails from YouTube videos."
-        canonical="https://your-website-url.com"
+        title="Age Calculator"
+        description="age calculator from birthday."
+        canonical="http://www.exactagecalculator.com/"
         openGraph={{
-          url: "https://your-website-url.com",
-          title: "Youtube Thumbnail Downloader",
-          description: "Download high-quality thumbnails from YouTube videos.",
-          site_name: "Youtube Thumbnail Downloader",
+          url: "http://www.exactagecalculator.com/",
+          title: "age calculator from birthday",
+          description: "age calculator from birthday.",
+          site_name: "age calculator from birthday",
         }}
       />
       <Component {...pageProps} />
