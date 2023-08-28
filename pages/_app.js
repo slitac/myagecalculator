@@ -1,7 +1,6 @@
 import "../styles/index.css";
 import { Fragment } from "react";
 import { DefaultSeo } from "next-seo";
-
 function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
